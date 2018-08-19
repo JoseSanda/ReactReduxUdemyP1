@@ -1,25 +1,18 @@
-# ReduxSimpleStarter
+# Practica 1 Curso de Udemy sobre React y Redux
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Más información sobre el curso: https://www.udemy.com/react-redux/.
+Autor del curso Stephen Grider.
 
-### Getting Started
+## Información
 
-There are two methods for getting started with this repo.
+Mini proyecto para implementar una interfaz simple que permita listar videos de youtube y reproducirlos.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
+## Ejecución
+Descargar el código. Una vez en la carpeta introducir: 
 ```
 > npm install
 > npm start
 ```
+
+Es necesario generar una clave para consultar el API de youtube. Para ello acceder a [https://console.cloud.google.com/apis/].
+Una vez generada la clave introducirla en el fichero ```index.js```, como valor para la constante ```API_KEY```.
